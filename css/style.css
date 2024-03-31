@@ -4,3 +4,69 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif
 }
+
+/*Style comuns*/
+.container{
+    width: 100%;   
+    text-align: center; 
+}
+
+/* top */
+.top{
+    max-width: 1024px;
+    padding: 35px 0px;
+    background-color: #ffffff;
+    position: relative;   
+    margin: 0 auto;
+
+    
+}
+.top .logo{
+    display: flex;
+    position: absolute;
+    top: 5px;
+    left: 0;
+    right: 0;
+    text-align: left;
+}
+.logo img{
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+}
+
+.text-logo h2{
+    font-size: 32px;
+    color: #000;
+    margin-bottom: -10px;
+}
+
+.text-logo p{
+    font-size: 16px;
+    color: #2f86d6;
+}
+
+.menu{
+    position: absolute;
+    top: 20px;
+    right: 0;
+}
+
+.menu ul{
+    text-transform: uppercase;
+    list-style: none;
+    display: flex;
+}
+
+.menu li{
+    margin-right: 10px;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: #233032;
+    font-size: 18px;
+    font-weight: 600;
+
+}
+/* top */
