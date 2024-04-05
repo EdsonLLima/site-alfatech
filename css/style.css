@@ -54,8 +54,9 @@ nav a {
   font-weight: 600;
   text-decoration: none;
   color: #233032;
-  font-size: 18px;
+  font-size: 16px;
   transition: 0.3s;
+  text-transform: uppercase;
 }
 nav a:hover {
   color: rgb(68, 158, 158);
@@ -79,11 +80,6 @@ nav a:hover {
 .container-logo h2 {
   font-size: 32px;
 }
-/* main {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-} */
 
 .container {
   display: flex;
@@ -105,6 +101,7 @@ nav a:hover {
   flex: 1 1 300px;
   display: flex;
   flex-direction: column;
+  font-size: 16px;
   justify-content: center;
   gap: 20px;
 }
@@ -121,4 +118,39 @@ nav a:hover {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+/* first ads*/
+
+.first-ads {
+  width: 100%;
+  background-color: #233032;
+  padding: 20px 10px;
+  color: #fff;
+}
+
+.container-ads {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
+
+.ads-text h3 {
+  font-size: 24px;
+}
+.ads-text p {
+  font-size: 16px;
+}
+
+.btn-price a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  background-color: #2f86d6;
+  border-radius: 4px;
+  text-transform: uppercase;
+  padding: 20px;
 }
