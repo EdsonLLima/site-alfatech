@@ -13,11 +13,12 @@ body {
   padding: 0px 0px;
 }
 
-/*Style comuns*/
-
 /* top */
 
 .container-top {
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
   background: #fff;
   padding: 35px 50px;
   display: flex;
@@ -27,10 +28,11 @@ body {
 }
 
 .container-logo {
-  width: 285px;
+  width: 330px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 10px;
 }
 
 nav {
@@ -52,11 +54,17 @@ nav a {
   font-weight: 600;
   text-decoration: none;
   color: #233032;
+  font-size: 16px;
+  transition: 0.3s;
+  text-transform: uppercase;
+}
+nav a:hover {
+  color: rgb(68, 158, 158);
 }
 
 .container-logo-img {
-  width: 100px;
-  height: 100px;
+  width: 90px;
+  height: 90px;
 }
 .container-logo-img img {
   width: 100%;
@@ -64,16 +72,14 @@ nav a {
 }
 
 .container-logo p {
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 600;
   color: #2f86d6;
 }
 
-/* main {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-} */
+.container-logo h2 {
+  font-size: 32px;
+}
 
 .container {
   display: flex;
@@ -82,7 +88,7 @@ nav a {
   max-width: 1024px;
 }
 
-/** sections banner **/
+/** section banner **/
 .section-banner {
   width: 100%;
   background-color: #2f86d6;
@@ -95,6 +101,7 @@ nav a {
   flex: 1 1 300px;
   display: flex;
   flex-direction: column;
+  font-size: 16px;
   justify-content: center;
   gap: 20px;
 }
@@ -111,4 +118,39 @@ nav a {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+/* first ads*/
+
+.first-ads {
+  width: 100%;
+  background-color: #233032;
+  padding: 20px 10px;
+  color: #fff;
+}
+
+.container-ads {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
+
+.ads-text h3 {
+  font-size: 24px;
+}
+.ads-text p {
+  font-size: 16px;
+}
+
+.btn-price a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  background-color: #2f86d6;
+  border-radius: 4px;
+  text-transform: uppercase;
+  padding: 20px;
 }
