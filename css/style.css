@@ -11,6 +11,7 @@ html {
 
 body {
   padding: 0px 0px;
+  background-color: #fff;
 }
 
 /* top */
@@ -86,6 +87,11 @@ nav a:hover {
   flex-wrap: wrap;
   margin: 0 auto;
   max-width: 1024px;
+}
+
+.section-information h3 span,
+.section-table-plans h3 span {
+  color: #2f86d6;
 }
 
 /** section banner **/
@@ -168,10 +174,6 @@ nav a:hover {
   word-spacing: 10px;
 }
 
-.section-information h3 span {
-  color: #2f86d6;
-}
-
 .container-box {
   display: flex;
   justify-content: space-around;
@@ -201,4 +203,60 @@ nav a:hover {
   font-size: 16px;
   color: #000;
   text-align: center;
+}
+
+/*Section table plans*/
+
+.section-table-plans {
+  width: 100%;
+  padding: 50px 0px;
+  display: flex;
+  overflow-y: scroll;
+}
+
+.section-table-plans h3 {
+  font-size: 25px;
+  color: #000;
+  text-align: center;
+  margin: 0 auto 40px auto;
+}
+
+.table-plans table {
+  width: 1024px;
+}
+.table-plans thead,
+tbody {
+  text-align: center;
+}
+.table-plans thead p {
+  margin: 0 auto;
+}
+
+.table-plans tr,
+th,
+td {
+  padding: 10px;
+}
+
+.table-plans h4 {
+  font-size: 18px;
+  color: #000;
+}
+
+.table-plans p {
+  width: 150px;
+  font-size: 13px;
+  color: #a89f9f;
+}
+.table-plans img {
+  width: 100px;
+}
+
+.odd-line {
+  background-color: #f6f6f6;
+  font-size: 16px;
+}
+.even-line {
+  background-color: #f1f3f7;
+  font-size: 16px;
 }
