@@ -211,14 +211,18 @@ nav a:hover {
   width: 100%;
   padding: 50px 0px;
   display: flex;
-  overflow-y: scroll;
+}
+.table-plans {
+  margin: 0 auto;
+  border-radius: 4px;
+  box-shadow: 0px 0px 50px 10px #2f86d6;
 }
 
 .section-table-plans h3 {
   font-size: 25px;
   color: #000;
   text-align: center;
-  margin: 0 auto 40px auto;
+  margin: 0 auto 80px auto;
 }
 
 .table-plans table {
