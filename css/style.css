@@ -90,7 +90,8 @@ nav a:hover {
 }
 
 .section-information h3 span,
-.section-table-plans h3 span {
+.section-table-plans h3 span,
+.developer span {
   color: #2f86d6;
 }
 
@@ -276,4 +277,38 @@ td {
 .even-line {
   background-color: #f1f3f7;
   font-size: 16px;
+}
+
+/*Footer*/
+footer {
+  width: 100%;
+  max-width: 1024px;
+  background: #fff;
+  padding-top: 50px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.contact-info {
+  margin: 20px 0px;
+  text-align: center;
+}
+
+.contact-info p {
+  line-height: 40px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.developer {
+  width: 100%;
+  background: #eee;
+  padding: 20px 0px;
+  text-align: center;
+  font-weight: bold;
 }
